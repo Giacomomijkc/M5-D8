@@ -1,0 +1,14 @@
+.cover-book{
+    width: 150px;
+}
+
+.book-data-container{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.addComment-container{
+    margin-top: 20px;
+}
