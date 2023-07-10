@@ -1,4 +1,3 @@
-import React, {useEffect} from 'react'
 import { Button } from 'react-bootstrap';
 
 const DeleteCommentButton = ({comment, setDeleteComment}) => {
@@ -33,7 +32,7 @@ const DeleteCommentButton = ({comment, setDeleteComment}) => {
 
     
     return (
-        <Button variant='danger' style={{ width: '60px', fontSize: '8px' }} onClick={deleteComment}>Cancella Commento</Button>
+        <Button variant='danger' style={{ width: '100px', fontSize: '8px', padding: '5px', marginTop: '5px' }} onClick={deleteComment}>Elimina Commento</Button>
     )
 }
 

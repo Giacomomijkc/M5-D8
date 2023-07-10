@@ -18,6 +18,10 @@ const LatestRelease = ({historyBooks, query }) => {
         setSelectedBook(book);
       };
 
+    if (!historyBooks) {
+        return <div>Loading...</div>;
+    }
+
     return (
       <Container className="my-5 justify-content-center">
         <Row>
@@ -48,7 +52,7 @@ const LatestRelease = ({historyBooks, query }) => {
             {selectedBook ? (
             <CommentArea asin={selectedBook.asin} />
             ) : (
-                <div className="alert alert-danger">
+                <div className="alert alert-danger mt-3">
                     Devi prima selezionare un libro per vedere i commenti
                 </div>
                 )}
