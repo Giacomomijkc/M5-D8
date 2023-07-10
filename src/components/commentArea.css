@@ -1,9 +1,11 @@
+.comment-container{
+    border: solid 1px rgb(219, 152, 185);
+    border-radius: 5px;  
+}
+
 .box-comment{
-    border: solid 1px lightgray;
-    border-radius: 5px;
-    -webkit-box-shadow: 2px 7px 5px 0px rgba(168,163,168,1);
-    -moz-box-shadow: 2px 7px 5px 0px rgba(168,163,168,1);
-    box-shadow: 2px 7px 5px 0px rgba(168,163,168,1);    
+    background-color:  rgb(219, 152, 185);
+    border-radius: 5px;  
     padding: 10px;
     font-style: italic;
     font-size: small;

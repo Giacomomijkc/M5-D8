@@ -42,8 +42,8 @@ const CommentArea = ({ asin, newComment }) => {
 
 	return (
         <>
-		<div>
-            <h1>RECENSIONI</h1>
+		<div className="comment-container mt-3">
+            <h1 className="ps-2 pt-2">Commenti</h1>
 					{historyBookComments &&
 						historyBookComments.map((comment) => {
 							return (
